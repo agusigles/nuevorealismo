@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+	<title>Nuevo Realismo</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@469&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="short icon" href="Img/Nr.png"> <link rel="stylesheet" href="CSS/estilos.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+<header class="container-fluid header1">
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav ">	
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+  <div class="collapse navbar-collapse texto" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+      <li class="nav-item active mr-5 mr-5">
+        <a class="nav-link logo" href="index.html" style="width: 150px; height: 150px;">
+        	<img src="Img/nuereal-png.png" class="log">
+        </a>
+      </li>
+      <li class="nav-item mr-5 mr-5">
+        <a class="nav-link historia" href="historia.html">Historia</a>
+      </li>
+      <li class="nav-item mr-5 mr-5">
+        <a class="nav-link artistas" href="artistas.html">Artistas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link contacto" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+  <form action="resultados.php" method="post">
+    <input class="btn" type="search" name="buscar" placeholder="Buscar..." />
+    <input class="btn" type="submit" value="ir" />
+    </form>
+  </div>
+</nav>
+</header>
+<section class="container-fluid pt-5 pb-5 caja2">
+	<div class="container">
+		<h1>Obras</h1>
+		<div class="row">
+	    	<div class="row justify-content-around">
+	    	<div class="col-lg-4 col-md-8 col-sm-12 pt-5 pb-3 caja3">
+	    		<a href="pintura.html">
+	      		<img src="Img/80/pintura.jpg" class="poster" id="scale" data-aos="zoom-in" data-aos-duration="500"></a>
+	      		<p class="titulos">Pintura</p>
+	    	</div>
+	    	<div class="col-lg-4 col-md-8 col-sm-12 pt-5 pb-3 caja3">
+	    		<a href="esculturas.html" >
+	      		<img src="Img/80/escultura.jpg" class="poster" id="scale" data-aos="zoom-in" data-aos-duration="500"></a>
+	      		<p class="titulos">Escultura</p>
+	    	</div>	
+		</div>
+</div>
+</section>
+<footer class="footer">Copyright 2020 - Agustin Iglesias </footer>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!--jquery-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!--FancyBox-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+<script>
+  $(document).ready(function(){
+    $("a").attr("data-fancybox")
+  })
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
